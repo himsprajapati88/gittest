@@ -1,0 +1,44 @@
+#############################################################################
+
+how to start Git?
+
+1= open terminal
+	>> sudo apt -get install git
+2= open browser
+	>>open www.github.com
+	>>sign in
+3= in terminal
+	>>git config --global user.name "username"
+	>>git config --global user.email "user.email.id"
+4= go on github
+	>>create new repositories
+	>>name:
+	>>description:
+	>>public(free)
+	>>create
+5= in terminal
+	>>mkdir directory.name
+	>>cd directory.name
+	>>ls
+	>>copy command one by one from repositories file
+
+#############################################################################
+
+COPY COMMAND FROM REPOSITORIES FILE
+
+1>> echo=create read me file
+2>> git init=git initialize in directory
+3>> git add file.name=for add files to git
+4>> git commit -m "description"=save change in git
+5>> git remote and origin <URL>
+	>>URL gives link to github directory
+6>> git push -u origin master=push your changes
+#############################################################################
+
+FOR ADD NEW FILE TO GIT DIRECTORY
+
+ >> nano file.name =for create new file
+	>>ctrl+o =save changes
+	>>ctrl+x =exit
+
+############################################################################
